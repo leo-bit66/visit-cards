@@ -4,5 +4,5 @@ This application allows users to create their own visit card with customizable t
 Prerequisites:
 Node.js and a package manager like npm or yarn
 
-Author
+Author.
 Farhad Hassan
