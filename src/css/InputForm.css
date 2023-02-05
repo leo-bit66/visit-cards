@@ -1,0 +1,73 @@
+.input-form-container {
+  display: table;
+  width: 590px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.input-form-container h2 {
+  margin-bottom: 15px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.input-form-container table {
+  border-collapse: collapse;
+}
+
+.input-form-container td {
+  text-align: right;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.input-form-container label {
+  font-weight: bold;
+}
+
+.input-form-container input[type="text"],
+.input-form-container input[type="phone"],
+.input-form-container input[type="email"] {
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.input-form-container .fa-eye-dropper {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+.input-form-container .color-picker {
+  position: absolute;
+  z-index: 2;
+}
+
+.input-form-container .color-picker-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.save-button-container {
+  text-align: center;
+}
+
+.save-button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  margin-top: 15px;
+}
