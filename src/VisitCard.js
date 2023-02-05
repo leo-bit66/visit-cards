@@ -1,5 +1,4 @@
 import React from "react";
-import InputForm from './InputForm';
 import "./css/VisitCard.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt, faEnvelope, faGlobe } from '@fortawesome/free-solid-svg-icons'
